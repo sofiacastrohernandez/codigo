@@ -1,0 +1,6 @@
+function binToDec(bin){
+//Sofia Castro Hernandez. Subido a github
+//el metodo parseint, permite pasar de una base a otra, poniendo la base
+//a la que se quiere pasar en el segundo parametro.
+  return parseInt(bin,2);
+}

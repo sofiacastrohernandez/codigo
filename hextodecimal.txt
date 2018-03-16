@@ -1,0 +1,5 @@
+function hexToDec(hexString){
+//Sofia Castro Hernandez. Subido a github
+//usamos metodo parseInt, con parametro 16 , base hexadecimal
+  return parseInt(hexString,16);
+}

@@ -1,0 +1,25 @@
+var humanYearsCatYearsDogYears = function(humanYears) {
+  // Sofia Castro. Subido a github
+ console.log(humanYears);
+ var arr1=[1,15,15];
+  switch(humanYears) {
+    case 1:
+        arr1=[1,15,15];
+        return arr1; 
+    case 2:
+        arr1=[2,24,24];
+        return arr1;
+    default:
+        var cat=24;
+        var dog=24;
+        for (i=3; i<=humanYears;i++)
+        {
+          cat = cat+4;
+          dog = dog +5;
+         }
+        arr1=[humanYears,cat,dog];
+        return arr1;
+}
+
+  return [0,0,0];
+}
