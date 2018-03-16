@@ -1,0 +1,9 @@
+function makeNegative(num) {
+//Sofia Castro Hernandez. Compartido en github
+//Solo hay que multiplicar por -1 si el numero es positivo
+if (num>=0)
+  return num*-1
+  else 
+  return num
+}
+

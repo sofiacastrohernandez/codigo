@@ -1,0 +1,15 @@
+Array.prototype.unique=function(a){
+  return function(){return this.filter(a)}}(function(a,b,c){return c.indexOf(a,b+1)<0
+});
+function mergeArrays(arr1, arr2) {
+//Sofia Castro Hernandez. Compartido en github
+//Meto todo en un mismo array. metodo push
+//Elimino los duplicados con el metodo unique creado anteriormente
+//Ordeno el resultado con sort y la funcion compare.
+    for(var i=0;i<arr2.length;i++){
+  		arr1.push(arr2[i]);
+  	}
+	  arr1=arr1.unique();
+    arr1.sort(function(a,b){return a-b;})
+    return arr1;
+}
