@@ -1,0 +1,6 @@
+function validateUsr(username) {
+//Sofia Castro Hernandez. Subido a Github
+//La expresion devuelve true si tiene numeros, minusculas, _ y ningun espacio
+console.log(username);
+return /^[a-z_0-9]{4,16}$/g.test(username);
+}

@@ -1,0 +1,9 @@
+function lowercaseCount(str){
+    //Sofia Castro Hernandez. Subido a Github
+    //me quedo con todo lo que seria el alfabeto en minusculas
+    //Cuento con length, previo saber si es null porque entonces 
+    //seria error
+    console.log(str);
+    var resultado =str.match(/[a-z]/g);
+    if (resultado==null) return 0; else return resultado.length;
+}

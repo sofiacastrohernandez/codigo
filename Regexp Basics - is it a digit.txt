@@ -1,0 +1,4 @@
+String.prototype.digit = function() {
+  //Sofia Castro Hernandez
+  return /^\d$/.test(this);
+};

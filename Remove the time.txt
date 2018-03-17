@@ -1,0 +1,5 @@
+function shortenToDate(longDate) {
+  // Sofia Castro Hernandez. Subido a Github
+  //me quedo con substr con la parte que me interesa
+  return longDate.substr(0, longDate.indexOf(","));
+}

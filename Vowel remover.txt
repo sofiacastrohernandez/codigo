@@ -1,0 +1,7 @@
+function shortcut(string){
+  //Sofia Castro Hernandez. Subido a github
+  //Expresion regular con las vocales
+  console.log(string);
+  return string.replace(/[a,e,i,o,u]/g,"");
+ 
+}

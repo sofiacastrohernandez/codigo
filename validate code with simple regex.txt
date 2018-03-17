@@ -1,0 +1,7 @@
+function validateCode (code) {
+//Sofia Castro Hernandez. Subido a github
+//Primero cualquiera de los digitos 1 , 2 o 3 y ha de ser 1
+//y despues cualquier digito.
+console.log(code);
+return /^[1|2|3]{1}\d/g.test(code);
+}

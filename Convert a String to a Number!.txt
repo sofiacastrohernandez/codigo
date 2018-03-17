@@ -1,0 +1,4 @@
+var stringToNumber = function(str){
+  //Sofia Castro Hernandez. Subido a github
+  return parseInt(str);
+}

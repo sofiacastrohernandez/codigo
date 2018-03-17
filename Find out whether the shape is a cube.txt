@@ -1,0 +1,6 @@
+var cubeChecker = function(volume, side){
+//Sofia Castro Hernandez. Subido a github
+//Con pow lo elevo a 3 el side y veo si es el volumen a la par que 
+//aseguro que el side es mayor que cero
+  return (volume==Math.pow(side,3) && side>0);
+};
