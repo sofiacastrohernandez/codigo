@@ -1,0 +1,5 @@
+function repeatStr (n, s) {
+//Sofia Castro Hernandez. subido a github
+//Con el metodo repeat se repite la cadena s , n veces
+return result = s.repeat(n);
+}

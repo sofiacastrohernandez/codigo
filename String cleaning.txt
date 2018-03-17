@@ -1,0 +1,6 @@
+function stringClean(s){
+//Sofia Castro Hernandez, subido a github
+//Usando expresiones regulares busco todos los digitos que haya y los 
+//con g para que recorra toda la cadena
+  return s.replace(/[0-9]/g,"");
+}

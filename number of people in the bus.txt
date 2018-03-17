@@ -1,0 +1,11 @@
+var number = function(busStops){
+  // Sofia Castro Hernandez. Subida a github
+  //Sumo todos los que suben posicion i,0 y todos los que bajan i,1
+  var suben=0;
+  var bajan=0;
+  for (var i=0; i<busStops.length;i++){
+    suben=busStops[i][0]+suben;
+    bajan=busStops[i][1]+bajan;
+  }
+  return suben-bajan;
+}

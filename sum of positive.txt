@@ -1,0 +1,13 @@
+function positiveSum(arr) {
+//Sofia Castro Hernandez. subido a github
+//ordeno el array
+//convierto los negativos en 0
+//sumo todos los numeros con reduce.
+  arr.sort(function(a, b) {  return a - b; });
+  if (arr.length==0) return 0
+  else{
+    for (i=0; i<arr.length; i++) {if(arr[i]<0) arr[i]=0; else break;}
+    var total = arr.reduce(function(a, b){ return a + b; });
+    return total;
+    }
+}
