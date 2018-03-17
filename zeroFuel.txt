@@ -1,0 +1,7 @@
+const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+  // Sofia Castro Hernandez. Subido a github 
+  console.log(distanceToPump);
+  console.log(mpg);
+  console.log(fuelLeft);
+  return((mpg*fuelLeft)>=distanceToPump);
+ };

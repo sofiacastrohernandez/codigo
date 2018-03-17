@@ -1,0 +1,10 @@
+function getSize(width, height, depth)
+{
+//Sofia Castro Hernandez. Subido a github
+//Formula de area caja = 2LW+2LH+2WH
+//Formula de volumen caja = w*h*l
+console.log(width);
+console.log(height);
+console.log(depth);
+return [(2*depth*width)+(2*depth*height)+(2*width*height),(width*height*depth)];
+}

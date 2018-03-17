@@ -1,0 +1,10 @@
+function correct(string)
+{
+	//Sofia Castro Hernandez. Subido a github
+  //Expresion regular que cambia todas las apariciones del 1 por I /1/g,"I"
+  console.log(string);
+  string=string.replace(/1/g,"I");
+  string=string.replace(/5/g,"S");
+  string=string.replace(/0/g,"O");
+  return string;
+}
