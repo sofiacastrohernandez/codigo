@@ -1,0 +1,8 @@
+function betterThanAverage(classPoints, yourPoints) {
+  // Sofia Castro Hernandez. Subido a github
+  //Sumo todo, calculo promedio
+  var total=yourPoints;
+  for(var i=0; i<classPoints.length; i++) {
+    total=classPoints[i]+total; }
+  if(yourPoints>=(total/i)) return true; else return false;
+}

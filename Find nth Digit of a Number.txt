@@ -1,0 +1,16 @@
+var findDigit = function(num, nth){
+//Sofia Castro Hernandez. Subido a git hub
+//El numero ya lo pongo en positivo
+//Si la longitud es mayor que 1, lo paso a string para pasarlo a un 
+//array.
+console.log(num);
+console.log(nth);
+if (num <0) num=num*-1;
+if (nth<=0)return -1;
+  else
+  {
+     var arr1=num.toString().split("");
+     if (arr1.length<nth) return 0;
+       else return parseInt(arr1[arr1.length-nth]);
+  }
+}

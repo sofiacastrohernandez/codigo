@@ -1,0 +1,11 @@
+function findDifference(a, b) {
+  //Sofia Castro Hernandez. Subido a github
+  //calculo ambas dimensiones y resto la mayor a la mas pequeña
+  var dimensiona=a[0]*a[1]*a[2];
+  var dimensionb=b[0]*b[1]*b[2];
+  if (dimensiona<dimensionb) 
+    return dimensionb-dimensiona;
+  else
+    return dimensiona-dimensionb;
+  
+}
