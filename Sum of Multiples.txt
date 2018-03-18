@@ -1,0 +1,10 @@
+function sumMul(n,m){
+//Sofia Castro Hernandez. Subido a github
+var res=0;
+if ((m<n)||(m==0)||(n==0)) return "INVALID"; else {
+for(var i=n; i<m; i=i+n){
+  res=res+i;
+}
+return res;
+}
+}

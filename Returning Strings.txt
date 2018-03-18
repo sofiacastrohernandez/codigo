@@ -1,0 +1,4 @@
+function greet(name){
+  //Sofia Castro Hernandez. subido a github
+  return "Hello, "+name+" how are you doing today?"
+}

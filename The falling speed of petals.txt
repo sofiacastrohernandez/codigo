@@ -1,0 +1,7 @@
+function sakuraFall(v) {
+  // Sofia Castro Hernandez. Subida a github
+  //Para devolver el tiempo, nos indican que tome el movimiento
+  //del petalo como una cte durante la caida. Y si con 5 sale 80 , 
+  //la cte es 400
+  if(v>0) return 400/v; else return 0;
+}

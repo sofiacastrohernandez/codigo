@@ -1,0 +1,5 @@
+function checkTheBucket(bucket){
+  //Sofia Castro Hernandez. subido a github
+  console.log(bucket);
+  return (bucket.includes('stone'))&&(bucket.includes('gold'));
+}

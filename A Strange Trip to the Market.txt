@@ -1,0 +1,5 @@
+function isLockNessMonster(s) {
+  //Sofia Castro Hernandez. subido a github
+  //Sabemos que s es o no , si, lleva los tree fiddy, si lleva el 3.50
+  return /tree fiddy|3.50/.test(s);
+}

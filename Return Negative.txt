@@ -1,0 +1,4 @@
+function makeNegative(num) {
+  //Sofia Castro Hernandez. subido a github
+  return (num>0)? num*(-1) : num;
+}

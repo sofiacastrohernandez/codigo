@@ -1,0 +1,4 @@
+function SubtractSum(n){
+//Sofia Castro Hernandez. subido a github
+  return "apple";
+}

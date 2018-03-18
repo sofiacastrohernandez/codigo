@@ -1,0 +1,8 @@
+function century(year) {
+  // Sofia Castro Hernandez
+  //--year 1900 - 1 =1899
+  //year/100 ==> 1899 /100 ==> 18
+  //+1 ==> 18+1 ==> 19
+  console.log(year);
+  return --year/100+1 | 0;
+}

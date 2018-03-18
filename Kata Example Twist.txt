@@ -1,0 +1,6 @@
+// add the value "codewars" to the websites array 1,000 times
+//Sofia Castro Hernandez. subido a github
+//el metodo fill añade.
+//Ejemplo Array(3).fill(4); ==>  [4, 4, 4]
+var websites = [];
+websites = Array(1000).fill("codewars"); //1000 veces codewars
