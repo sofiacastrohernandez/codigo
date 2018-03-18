@@ -1,0 +1,9 @@
+function bonusTime(salary, bonus) {
+// Sofia Castro Hernandez. subido a github
+if (bonus==true){
+  return "£"+salary+"0";
+} else
+{
+return "£"+salary;
+}
+}
