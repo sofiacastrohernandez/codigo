@@ -1,0 +1,9 @@
+const reverseSeq = n => {
+//Sofia Castro Hernandez- subido a github
+//Con keys, construyo un array con los indices, densekeys
+//Con slice, me copio el rango que me interesa
+//Con reverse, le doy la vuelta entera
+  var denseKeys = [...Array(n+1).keys()];
+  var copyarr=denseKeys.slice(1, n+1);
+  return copyarr.reverse();
+};

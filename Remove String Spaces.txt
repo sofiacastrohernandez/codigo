@@ -1,0 +1,5 @@
+function noSpace(x){
+//Sofia Castro Hernandez. subida a github
+//reemplazar por "" si encontramos un espacio \s
+ return x.replace(/\s/g,"");
+}
